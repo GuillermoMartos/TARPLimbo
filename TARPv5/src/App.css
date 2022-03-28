@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.simio-img{
+    width: 11.875em;
+    height: 13.375em;
+    align-self: center;
+}
