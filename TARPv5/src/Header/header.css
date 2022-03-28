@@ -1,6 +1,7 @@
 .header-container{
     background-color: rgb(27, 25, 23);
     display: flex;    
+    justify-content: space-around;
 }
 
 .nologo-container{
@@ -8,7 +9,8 @@
     flex-direction: row;
     justify-content: right;
     color:white;
-    align-items:center;    
+    align-items:center;
+    font-family: 'Inter', sans-serif;
 }
 
 .header-child{
