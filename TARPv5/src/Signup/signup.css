@@ -3,8 +3,6 @@
     flex-direction: column;
     margin: 0 auto;
     border-radius: 3em;
-    border-color: aliceblue;
-    border-style: solid;
     max-width: 60%;
     background: rgb(85,34,30);
     background: linear-gradient(71deg, rgba(85,34,30,1) 10%, rgba(27,21,17,1) 76%);
@@ -14,6 +12,7 @@
     color: white;
     text-align: center;
 }
+
 label{
     color: white;
 }
@@ -30,6 +29,7 @@ label{
     border-style: none;
     display: flex;
     flex-direction: column;
+    padding: 0.6em;
 }
 
 .text-sign {
