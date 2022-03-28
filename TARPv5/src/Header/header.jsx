@@ -4,6 +4,16 @@ import logo from '../logoPNG.png'
 
 
 function Header() {
+
+
+    //espacio para funciones de botones Login y Signup:
+    function handleLogin(){
+        
+    }
+    function handleSignup(){
+
+    }
+
   return (
     <div className="header-container">
         <img className="logo" src={logo} alt="logoTARP" />
@@ -19,15 +29,13 @@ function Header() {
         Security Audit
       </div>
       <div className="header-child">
-        <button className="sign-btn">Sign up</button>
+        <button className="sign-btn" onClick={()=>handleSignup()}>Sign up</button>
       </div>
       <div className="header-child">
-        <button className="log-btn">Log In</button>
+        <button className="log-btn" onClick={()=>handleLogin()}>Log In</button>
       </div>
       </div>
-    </div>
-
-    
+    </div>    
   );
 }
 
