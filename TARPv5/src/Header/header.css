@@ -1,0 +1,41 @@
+.header-container{
+    background-color: rgb(27, 25, 23);
+    display: flex;    
+}
+
+.nologo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    color:white;
+    align-items:center;    
+}
+
+.header-child{
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.sign-btn{
+    background-color: rgb(212, 191, 71);
+    color: rgb(27, 25, 23);
+    border-style: none;
+    border-radius: 0.4em;
+    padding: 1em;
+}
+
+.log-btn{
+    background-color: transparent;
+    color: white;
+    border-style: none;
+}
+
+.logo{
+    width: 12.500em;
+    height: 4.125em;
+    left: 8.875em;
+    top: 0.688em;
+}
+
+
+
