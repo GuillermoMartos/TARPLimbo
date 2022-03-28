@@ -33,13 +33,15 @@ function Signup() {
   }
 
   function handleClose() {
-
+    // alert("hola")
+    document.getElementById("hiddensign").style.position="absolute"
+    document.getElementById("hiddensign").style.visibility="hidden"
   }
 
   return (
 
-    <div className="signup-container">
-      <p className="close-sign" onClick={handleClose()}>X</p>
+    <div id="hiddensign" className="signup-container">
+      <p className="close-sign" onClick={()=>handleClose()}>X</p>
 
       <h1>Create an account.</h1>
 

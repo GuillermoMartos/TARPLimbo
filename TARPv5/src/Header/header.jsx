@@ -8,10 +8,13 @@ function Header() {
 
     //espacio para funciones de botones Login y Signup:
     function handleLogin(){
-        
+      document.getElementById("hiddenlog").style.position="absolute"
+      document.getElementById("hiddenlog").style.visibility="visible"
+      document.getElementById("hiddenlog").style.marginLeft="40%"
     }
     function handleSignup(){
-
+      document.getElementById("hiddensign").style.position="absolute"
+      document.getElementById("hiddensign").style.visibility="visible"
     }
 
   return (

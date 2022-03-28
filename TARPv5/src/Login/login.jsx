@@ -32,12 +32,14 @@ function Login() {
   }
 
   function handleClose() {
+    document.getElementById("hiddenlog").style.position="absolute"
+    document.getElementById("hiddenlog").style.visibility="hidden"
   }
 
   return (
 
-    <div className="signup-container">
-      <p className="close-sign" onClick={handleClose()}>X</p>
+    <div  id="hiddenlog" className="signup-container">
+      <p className="close-sign" onClick={()=>handleClose()}>X</p>
 
       <h1>Log in to your account.</h1>
 

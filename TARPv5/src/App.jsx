@@ -20,6 +20,8 @@ function App() {
   return (
     <div className="main-container">
       <Header />
+      <Signup></Signup>
+      <Login></Login>
       <img src={simio} alt="simio logo" className="simio-img" />
 
       <div className='phrase'>

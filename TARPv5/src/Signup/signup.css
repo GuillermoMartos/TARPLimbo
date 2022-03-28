@@ -6,6 +6,10 @@
     max-width: 60%;
     background: rgb(85,34,30);
     background: linear-gradient(71deg, rgba(85,34,30,1) 10%, rgba(27,21,17,1) 76%);
+    position:inherit;
+    margin-left: 25%;
+    margin-top: 7%;
+    
 }
 
 .signup-container > h1{
