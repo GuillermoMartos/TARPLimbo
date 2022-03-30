@@ -33,7 +33,6 @@ function Signup() {
   }
 
   function handleClose() {
-    // alert("hola")
     document.getElementById("hiddensign").style.position="absolute"
     document.getElementById("hiddensign").style.visibility="hidden"
   }
