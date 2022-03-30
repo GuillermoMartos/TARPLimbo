@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './signup.css'
 
 function Signup() {
-  const data = useState({
+  const [data, set_data] = useState({
     name: "",
     email: "",
     password: "",
   })
-  const errors = useState({
+  const [errors, set_errors] = useState({
     name: "",
     password: "",
     email: ""
@@ -22,6 +22,7 @@ function Signup() {
       ...data,
       [e.target.name]: value,
     });
+    console.log(data)
   }
   function handleSubmit(e) {
     e.preventDefault()
@@ -58,6 +59,7 @@ function Signup() {
             required
             name="name"
             value={data.name}
+            onChange={(e) => handleChange(e)}
           />
           {errors.name && (
             <div >
