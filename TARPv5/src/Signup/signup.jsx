@@ -22,7 +22,6 @@ function Signup() {
       ...data,
       [e.target.name]: value,
     });
-    console.log(data)
   }
   function handleSubmit(e) {
     e.preventDefault()
